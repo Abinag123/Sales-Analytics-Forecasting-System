@@ -13,24 +13,3 @@ An end-to-end Python pipeline demonstrating transactional data extraction, ETL p
 4.  **Forecasting Layer:** Computes rolling 3-month moving averages to generate future forecasting baselines for inventory and business management.
 
 ---
-
-## 🛠️ Tech Stack
-*   Python 3.14
-*   Pandas (ETL & Analytical Processing)
-*   NumPy (Statistical & Array calculations)
-*   OpenPyXL / Excel (Structured data exports)
-
----
-
-## 🚀 Getting Started
-
-### 1. Install Dependencies
-```bash
-pip install pandas numpy openpyxl
-```
-
-### 2. Run Pipeline
-```bash
-python sales_analytics.py
-```
-Outputs report summaries directly to the console and exports the finalized structured dataset to `Sales_Analytics_Output.xlsx`.
